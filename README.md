@@ -6,7 +6,7 @@
 
 This project aims to manage the environment of a room using the dust sensor GP2Y1014AU to monitor particulate matter, the DHT11 sensor to measure temperature and humidity, and the MQ135 sensor to assess air quality. When the temperature exceeds a predefined threshold, the system automatically turns on the fan to reduce the temperature in the room.
 
----
+
 
 ## **I. INTRODUCTION**
 
@@ -16,7 +16,7 @@ Air quality is now a major concern in urban areas. High temperature, humidity, d
 
 This project presents a simple and low-cost IoT-based system to measure air quality in a room. When the air becomes too hot, the system automatically turns on a fan to improve the environment, providing a smarter and healthier living space.
 
----
+
 
 ## **II. MAIN PROPOSAL**
 
@@ -30,7 +30,7 @@ The system consists of hardware components and software programs. Sensors measur
 
 **Figure 1:** System Block Diagram
 
----
+
 
 ### **B. Components and Peripheral Devices**
 
@@ -52,7 +52,7 @@ The system consists of hardware components and software programs. Sensors measur
 | 14 | 9V Battery | 1 |
 | 15 | F505 High-Speed Motor 3–9VDC | 1 |
 
----
+
 
 ### **C. Software Programming**
 
@@ -104,7 +104,7 @@ Arduino Uno and NodeMCU ESP8266-12E make decisions based on sensor input. The ai
 | OUTPUT3 | | Cathode |
 | OUTPUT4 | | Anode |
 
----
+
 
 ### **D. Programming Flowchart**
 
@@ -114,7 +114,7 @@ Both Arduino Uno and NodeMCU are programmed via Arduino IDE. The following flowc
 
 **Figure 4:** Flowchart of the system
 
----
+
 
 
 

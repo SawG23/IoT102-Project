@@ -24,7 +24,7 @@ This project presents a simple and low-cost IoT-based system to measure air qual
 
 The system consists of hardware components and software programs. Sensors measure temperature, dust, and gas concentration. Arduino Uno and NodeMCU ESP8266 are the main IoT platforms. The NodeMCU sends data to the Blynk IoT cloud via Wi-Fi. Arduino communicates wirelessly via LoRa, controlling sensors and activating a fan through an L298N driver when temperature thresholds are exceeded.
 
-![System Block Diagram]
+
 ![494822712_1045809337461490_2889074490691037943_n](https://hackmd.io/_uploads/HytFy91Axl.png)
 
 
@@ -58,7 +58,7 @@ The system consists of hardware components and software programs. Sensors measur
 
 Arduino Uno and NodeMCU ESP8266-12E make decisions based on sensor input. The air quality, dust, and temperature sensors connect to the Arduino’s analog and digital pins; the NodeMCU controls the LCD and sends data to the cloud.
 
-![Circuit Schematic (Room)]
+
 ![490993091_532360376614554_4223646647095521737_n](https://hackmd.io/_uploads/BJjT1qkRll.png)
 
 **Figure 2:** Circuit schematic (room setup)
